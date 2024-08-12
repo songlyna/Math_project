@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b1279;
+    color: white;
+}
+
+header {
+    background-color: #0b1279;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 70px;
+    margin: 0 10px;
+}
+
+.logo-container .ite-logo {
+    height: 90px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.main-image {
+    width: 80%;
+    height: auto;
+    max-height: 500px; /* Adjust as needed */
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+}
+
+.content-container,
+.about-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.form-container {
+    width: 100%; /* Full width for forms */
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+#encryption-result, #decryption-result {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0b1279;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.image-container {
+    position: relative;
+}
+
+.rsa-ascii-button {
+    position: absolute;
+    top: 10px; /* Adjust this value as needed */
+    right: 10px; /* Adjust this value as needed */
+    background-color: hwb(224 7% 5%); /* Button color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    z-index: 10; /* Ensures button is above the image */
+}
